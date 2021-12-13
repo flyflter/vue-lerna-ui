@@ -36,8 +36,8 @@
     },
 
     methods: {
-      clickHandle (e) {
-        this.$emit('click', e)
+      clickHandle (eve) {
+        this.$emit('click', eve)
         if (!this.to) return
         if (this.router && this.$router) {
           this.$router.push(this.to)
