@@ -21,4 +21,4 @@ yarn-error.log*
 *.sw*
 
 # Build
-packages/@ziyi2/**/lib
+packages/@xiyan/**/lib

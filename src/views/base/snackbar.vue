@@ -23,18 +23,15 @@
       <h-btn @click="ShowActionDangerSnackbar">Action Danger</h-btn>
 
       <h3>参数示例</h3> 
-      <props-table :data="props" caption="通知处理属性"/>
     </div>    
 </template>
 
 <script>
-import propsTable from '@/components/propsTable'
 
 export default {
   name: 'snackbar',
 
   components: {
-    propsTable
   },
 
   data () {

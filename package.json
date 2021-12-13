@@ -7,7 +7,19 @@
     "lint": "vue-cli-service lint",
     "bootstrap": "lerna bootstrap",
     "cz:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist",
+    "clean": "lerna clean",
+    "list:version": "lerna ls --long",
+    "version:select": "lerna version",
+    "version:auto": "lerna version --conventional-commits",
+    "publish:from-git": "lerna publish from-git",
+    "publish:pre": "lerna publish prerelease",
+    "publish": "lerna publish",
+    "publish:minor": "lerna publish minor",
+    "publish:patch": "lerna publish patch",
+    "publish:major": "lerna publish major",
+    "publish:canary": "lerna publish --preid branchName"
+
   },
   "dependencies": {
     "vue": "^2.6.6",

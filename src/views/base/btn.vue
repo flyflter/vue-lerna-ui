@@ -111,22 +111,16 @@
       </h-btn-group>
 
 
-      <h3>参数示例</h3>
-      <props-table :data="props" caption="按钮属性"/>
-      <props-table :data="events" caption="按钮事件"/>
-      <props-table :data="groupProps" caption="按钮组属性(注意:子组件h-btn的对应属性失效)"/>
 
     </div>    
 </template>
 
 <script>
-import propsTable from '@/components/propsTable'
 
 export default {
   name: 'btn',
 
   components: {
-    propsTable
   },
 
   data () {

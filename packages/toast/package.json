@@ -1,8 +1,8 @@
 {
-  "name": "@ziyi2/toast",
+  "name": "@xiyan/toast",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
-  "author": "ziyi2",
+  "author": "xiyan",
   "license": "ISC"
 }

@@ -22,13 +22,11 @@
 </template>
 
 <script>
-import propsTable from '@/components/propsTable'
 
 export default {
   name: 'toast',
 
   components: {
-    propsTable
   },
 
   data () {
