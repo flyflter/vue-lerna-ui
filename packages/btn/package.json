@@ -1,6 +1,6 @@
 {
   "name": "@xiyan/button",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "button component",
   "main": "lib/index.common.js",
   "author": "xiyan",
