@@ -13,7 +13,6 @@ configureWebpack.externals = [
   })
 ];
 
-
 module.exports = {
   publicPath: '',
   outputDir: 'lib',

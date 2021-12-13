@@ -8,7 +8,7 @@
     head-style="default">
         <h-table-column 
           prop="para"
-          label="参数"
+          label="参数12"
           :width="80">
         </h-table-column>
         <h-table-column 
