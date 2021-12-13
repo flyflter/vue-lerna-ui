@@ -13,5 +13,6 @@
     "gulp-autoprefixer": "^6.0.0",
     "gulp-cssmin": "^0.2.0",
     "gulp-less": "^4.0.1"
-  }
+  },
+  "gitHead": "6a5fe624a64d9a0c487825151a4501ce9300e3b2"
 }

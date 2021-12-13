@@ -4,7 +4,7 @@
   "description": "button component",
   "main": "lib/index.common.js",
   "author": "xiyan",
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
     "lib": "vue-cli-service build --target lib --formats commonjs --name index index.js"
   },
@@ -17,5 +17,6 @@
     "eslint-plugin-vue": "^5.0.0",
     "lerna": "^3.13.1",
     "vue-template-compiler": "^2.5.21"
-  }
+  },
+  "gitHead": "6a5fe624a64d9a0c487825151a4501ce9300e3b2"
 }

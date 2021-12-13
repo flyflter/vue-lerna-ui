@@ -4,5 +4,6 @@
   "description": "",
   "main": "index.js",
   "author": "xiyan",
-  "license": "ISC"
+  "license": "MIT",
+  "gitHead": "6a5fe624a64d9a0c487825151a4501ce9300e3b2"
 }
