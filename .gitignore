@@ -21,4 +21,4 @@ yarn-error.log*
 *.sw*
 
 # Build
-packages/@xiyan/**/lib
+packages/@gpmbc/**/lib

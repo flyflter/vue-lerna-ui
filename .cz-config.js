@@ -27,8 +27,7 @@ module.exports = {
   ],
 
   scopes: [
-    { name: '@xiyan' }, 
-    { name: '@xiyan/button' }
+    { name: '@gpmbc' }
   ],
 
   allowTicketNumber: false,

@@ -19,7 +19,6 @@
     "publish:patch": "lerna publish patch",
     "publish:major": "lerna publish major",
     "publish:canary": "lerna publish --preid branchName"
-
   },
   "dependencies": {
     "vue": "^2.6.6",
@@ -55,7 +54,10 @@
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "rules": {},
+    "rules": {
+      "no-unused-vars": "off",
+      "no-undef": "off"
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }
