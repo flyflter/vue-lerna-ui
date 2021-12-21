@@ -2,7 +2,7 @@
   "useConfigFiles": true,
   "router": true,
   "routerHistoryMode": true,
-  "vuex": false,
+  "vuex": true,
   "cssPreprocessor": "less",
   "packageManager": "yarn",
   "plugins": {
