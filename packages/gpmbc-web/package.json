@@ -1,6 +1,6 @@
 {
   "name": "@gpmbc/gpmbc-web",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "> TODO: description",
   "main": "lib/index.js",
   "directories": {
